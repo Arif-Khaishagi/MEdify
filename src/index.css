@@ -1,0 +1,80 @@
+:root {
+  /* Global variables to be defined here */
+  --color-white: #ffffff;
+  --color-white1: #f0f0f0;
+  --color-white2: #fafbfe;
+  --color-blue: #2aa8ff;
+  --color-blue2: #1b3c74;
+  --color-gray: #abb6c7;
+  --color-gray1: #77829d;
+  --color-black: #000000;
+  --color-black1: #102851;
+  --color-black2: #5c6169;
+  --color-black3: #414146;
+  --color-black4: #787887;
+  --color-green: #02a401;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+
+  font-family: "Poppins", sans-serif;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+button {
+  color: var(--color-white);
+  border: none;
+  background-color: var(--color-blue);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,100 @@
+.wrapper {
+  padding: 2rem 5%;
+}
+
+.whiteWrapper {
+  padding: 2rem 5%;
+  background-color: var(--color-white);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.wrapper p {
+  color: var(--color-black1);
+}
+
+.tabs :last-child {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.tabs :hover {
+  cursor: pointer;
+  color: var(--color-black2);
+}
+
+.desktopView {
+  display: none;
+}
+
+.mobilView {
+  display: block;
+  color: var(--color-blue);
+}
+
+.mobilView:hover {
+  cursor: pointer;
+  color: var(--color-blue2);
+}
+
+.menuItem {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.menuItem ul {
+  color: var(--color-black1);
+  list-style-type: none;
+  padding: 0;
+}
+
+.menuItem li {
+  color: var(--color-blue);
+  background-color: var(--color-white);
+  margin: 0.4rem 0rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  width: 12rem;
+}
+
+.menuItem li:hover {
+  cursor: pointer;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 1224px) {
+  .wrapper {
+    padding: 2rem 10%;
+  }
+  .whiteWrapper {
+    padding: 2rem 10%;
+  }
+  .desktopView {
+    display: block;
+  }
+
+  .mobilView {
+    display: none;
+  }
+}

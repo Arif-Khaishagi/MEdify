@@ -1,0 +1,20 @@
+.searchBoxWrapper {
+  padding: 3rem 2rem;
+  background-color: var(--color-white);
+  /* margin: -20rem 10% -4rem 10%; */
+  /* margin: 10%; */
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  border-radius: 1rem;
+  box-shadow: 0.3em 0.3em 2em rgba(110, 105, 105, 0.4);
+  z-index: 2;
+}
+
+@media screen and (min-width: 786px) {
+  .searchBoxWrapper {
+    transform: translate(-50%, -20%);
+  }
+}

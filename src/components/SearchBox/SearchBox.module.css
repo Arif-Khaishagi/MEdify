@@ -1,0 +1,61 @@
+.userInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout input {
+  height: 47px;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-white1);
+  background-color: var(--color-white2);
+}
+
+.layout select {
+  width: 280px;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-white1);
+  background-color: var(--color-white2);
+}
+
+.selection p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-black1);
+  line-height: 30px;
+  margin: 2rem 0rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 786px) {
+  .userInputs {
+    flex-direction: row;
+    gap: 4rem;
+    margin-bottom: 4rem;
+  }
+  .cards {
+    flex-direction: row;
+  }
+}
